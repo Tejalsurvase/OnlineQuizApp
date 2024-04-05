@@ -1,0 +1,104 @@
+body{
+	background-image: linear-gradient(to right, #000000
+, #000033, #000066, #000099, #0000b3);
+}
+.quiz{
+	background: white;
+	margin-top: 20px;
+	width: 90%;
+	max-width: 650px;
+	margin: 55px auto 0;
+	border-radius: 10px;
+	padding: 18px;
+}
+.quiz h1{
+	font-size: 25px;
+	color: #66004d;
+	font-weight: 600;
+	border-bottom: 1px solid #660066;
+	padding-bottom: 20px;
+}
+.quiz1{
+	padding: 5px 0;
+}
+.quiz1 h2{
+	font-size: 18px;
+	color: indigo;
+	font-weight: 600;
+}
+.btn{
+	background: transparent;
+	color: indigo;
+	font-weight: 500;
+	width: 100%;
+	border: 1px solid #000066;
+	padding: 10px;
+	margin: 10px 0;
+	text-align: left0;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+	background: #003366;
+	color: white;
+}
+.btn:disabled{
+	cursor: no-drop;
+}
+.mdiv{height: 50px;
+	width: 50px;
+	background-image: url('https://media.tenor.com/lcuvD0zkFNMAAAAM/question-mark.gif');
+	position: relative;
+	background-size: cover;
+	top: 20px;
+	left: 20px;
+	border-radius: 20px;
+	animation-name: tejal;
+	animation-duration: 40s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	}
+@keyframes tejal{
+	25%{
+		top: 20px;
+		left: 1400px;
+	}
+    50%{
+        top: 650px;
+        left: 1400px;
+       }
+	75%{
+		top: 650px;
+		left: 20px;
+	}
+	100%{
+		top: 20px;
+		left: 20px;
+	}
+}
+
+#next{
+	background-color: #000033;
+	color: white;
+	font-weight: 500;
+	width: 120px;
+	height: 40px;
+	border-radius: 4px;
+	margin: 20px auto 0;
+	display: none;
+}
+
+#next:hover{
+	background: transparent;
+	color: #000033;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.correct{
+	background: #74EFA7;
+}
+.incorrect{
+	background: #ff9393;
+}
